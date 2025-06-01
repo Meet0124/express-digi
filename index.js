@@ -1,9 +1,10 @@
+import 'dotenv/config'
 import express from "express";
 
 const app = express(); //this app comes from express and can do many things
 
 // most common to listen on port
-const port = 3000;
+const port = process.env.PORT ||3000;
 
 // app.get("/",(req,res)=>{  // handle request on slash port home port
 //     res.send("Hello from meet!")
