@@ -1,0 +1,4 @@
+in package.json we have added type as module also there was option of common js difference
+In common js we heve to write as "const express = require('express')"
+
+In module we write as impoer express from 'express'
